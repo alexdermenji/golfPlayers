@@ -10,12 +10,12 @@ const Data = ({ socket }) => {
 
   return (
     <div>
-      <div className='listHeader'>
+      <header className='listHeader'>
         <span>ID: </span>
         <span>First Name: </span>
         <span>Last Name: </span>
         <span>Nationality: </span>
-      </div>
+      </header>
       <ul className='list'>
         {players.map((player, index) => {
           return (
